@@ -1,0 +1,4 @@
+ FROM jwetzell/guacamole
+ COPY glatt-theme.jar /config/guacamole/extensions/glatt-theme.jar
+ EXPOSE 8080
+ ENTRYPOINT [ "/init" ]
